@@ -17,7 +17,7 @@ $pass = '1234';
 
 // configuration de la connexion, pas la même qu'avec MAMP sur vos pc
 
-$db = new PDO('mysql:localhost;dbname=neoma;charset=utf8', $user, $pass);
+$db = new PDO('mysql:host=192.168.0.22;dbname=neoma;charset=utf8', $user, $pass);
 
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
