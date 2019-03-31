@@ -57,7 +57,7 @@ $requet->bindValue(12,$_POST['descrip']);
    
            <p>Login successfully! If your page do no return <a href="pageAccueil.php">Click here!</a></p>
    
-            <?php header("location: pageAccueil.php");?>
+            <?php header("refresh:5; location: index.php");?>
 </body>
 
 </html>

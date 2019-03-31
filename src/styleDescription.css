@@ -192,6 +192,14 @@ h1{
 
 
 
+.Descimg {
+	border-radius: 10px;
+	width: 90%;
+	text-align: center;
+}
+
+
+
 .textNormal {
     text-align: center;
     color: white;
@@ -199,6 +207,10 @@ h1{
     font-size: 1em;
 }
 
+#return{
+	color:white; 
+	font-size:0.8em;"
+}
 
 
 

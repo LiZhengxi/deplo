@@ -42,12 +42,12 @@ $requet->bindValue(1,$id);
 
 <div class="medium">   
 <div class="description">
-         <h1>Titre: <?php echo $annonce[0]['title'];?> </h1>
+         <h1> <?php echo $annonce[0]['title'];?> </h1>
          <br>
-         <h2>planete: <?php echo $annonce[0]['planetNom'];?></h2>
+         <h2><?php echo $annonce[0]['planetNom'];?></h2>
          <br>
-         <img width="500" height="300" src =" <?php echo (preg_replace('# #','',$annonce[0]['imgAdress']));?>">
-         <p>Distance(Terre): <?php echo $annonce[0]['planetDistance'];?></p>
+         <img  class="Descimg" src =" <?php echo (preg_replace('# #','',$annonce[0]['imgAdress']));?>">
+         <p>Distance(Terre): <?php echo $annonce[0]['planetDistance'];?> km </p>
          <p>Composition: <?php echo $annonce[0]['planetComposition'];?></p>
          <p>Habitant: <?php echo $annonce[0]['planetHabitant'];?></p>
          <p>Propriétaire: <?php echo $annonce[0]['planetProprietaire'];?></p>
@@ -56,7 +56,7 @@ $requet->bindValue(1,$id);
          <br>
          <p><a class = "button" href ="<?php echo "description.php?id=".$annonce[0]['id']; ?>" >Payer</a>   (Pas encore disponible pour le moment)</p>
          <br>
-         <a style="color:white; font-size:0.8em;" href = "pageAccueil.php"> Retourner sur la page précédent</a>
+         <a id ="return" href = "index.php"> Retourner sur la page précédent</a>
 </div>
 
 </div>
