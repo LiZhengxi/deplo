@@ -2,11 +2,12 @@
 // Connect to the data base
 include("credential/connexion.php"); 
 
-
+print_r($_FILES);
 
 // pick up the file
 $fichier_temp = $_FILES["image1"]['tmp_name'];
 $fichier_dest = "src/upload/".$_FILES["image1"]["name"];
+
 // Move to the other folder to stock this photo
 $result = move_uploaded_file($fichier_temp, $fichier_dest);
 
@@ -56,7 +57,7 @@ $requet->bindValue(12,$_POST['descrip']);
    
            <p>Login successfully! If your page do no return <a href="pageAccueil.php">Click here!</a></p>
    
-            <?php /* header("location: pageAccueil.php");*/?>
+            <?php header("location: pageAccueil.php");?>
 </body>
 
 </html>
