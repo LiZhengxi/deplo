@@ -14,18 +14,18 @@
     <header class="top">
         
         <p>
-            <a  href="pageAccueil.php" class="white">Contact</a>
+            <a  href="index.php" class="white">Contact</a>
             |
-            <a href="pageAccueil.php" class="white"> Sign in</a>
+            <a href="index.php" class="white"> Sign in</a>
             |
-            <a href="pageAccueil.php" class="white"> Sign up</a>
+            <a href="index.php" class="white"> Sign up</a>
         </p>
         <ul>
-        <li><a href="pageAccueil.php">Page</a></li>
-            <li><a href="pageAccueil.php">Achetez vos planètes</a></li>
+        <li><a href="index.php">Page</a></li>
+            <li><a href="index.php">Achetez vos planètes</a></li>
             <li><a href="pageAjoute.php">Vendre vos planètes</a></li>
-            <li><a href="pageAccueil.php">Planètes vendues</a></li>
-            <li><a href="pageAccueil.php">Qui sommes-nous ?</a></li>
+            <li><a href="index.php">Planètes vendues</a></li>
+            <li><a href="index.php">Qui sommes-nous ?</a></li>
         </ul>
     </header>
 
