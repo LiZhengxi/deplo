@@ -2,7 +2,7 @@
 // Connect to the data base
 include("credential/connexion.php"); 
 
-print_r($_FILES);
+
 
 // pick up the file
 $fichier_temp = $_FILES["image1"]['tmp_name'];
@@ -55,7 +55,7 @@ $requet->bindValue(12,$_POST['descrip']);
 
 <body>
    
-           <p>Login successfully! If your page do no return <a href="pageAccueil.php">Click here!</a></p>
+           <p>Login successfully! If your page do no return <a href="index.php">Click here!</a></p>
    
             <?php header("refresh:5; location: index.php");?>
 </body>
